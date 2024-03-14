@@ -18,8 +18,8 @@ logger = logging.getLogger("uvicorn")
 
 app = FastAPI()
 
-BASE_PATH = "D:/Projects_Data/Github/NAFNet"
-BASICSR_PATH = ("D:/Projects_Data/Github/NAFNet/basicsr")
+BASE_PATH = "D:/Projects_Data/DigitalOcean/UnblurImageWeb"
+BASICSR_PATH = ("D:/Projects_Data/DigitalOcean/UnblurImageWeb/basicsr")
 DEMO_SCRIPT_PATH = BASICSR_PATH + "/demo.py"
 CONFIG_PATH = BASE_PATH + "/options/test/SIDD/NAFNet-width64.yml"
     
